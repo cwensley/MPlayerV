@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+	
+  <PropertyGroup>
+    <TargetFramework>netstandard1.6</TargetFramework>
+    <PackageVersion>1.0</PackageVersion>
+    <Title>MPlayerV</Title>
+    <Copyright>Copyright © 2018</Copyright>
+    <Description>Description of MPlayerV</Description>
+  </PropertyGroup>
+  
+  <ItemGroup>
+    <PackageReference Include="Eto.Forms" Version="2.4.0-build1278" />
+    <PackageReference Include="Eto.Serialization.Xaml" Version="2.4.0-build1278" />
+  </ItemGroup>
+  
+</Project>
