@@ -7,9 +7,22 @@
 	Padding="10"
 	>
 
-	<StackLayout>
-		<Label>Some Content</Label>
-	</StackLayout>
+	<Panel>
+		<TableLayout>
+
+			<TableRow>
+				<Label>Some Content</Label>
+				<TableCell ScaleWidth="True">
+					<Slider/>
+				</TableCell>
+				<Label>also hi</Label>
+			</TableRow>
+			
+			<Button Size="80,32">Play</Button>
+			<TableRow/>
+			
+		</TableLayout>
+	</Panel>
 
 	<Form.Menu>
 		<MenuBar>
