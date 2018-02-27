@@ -3,13 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27130.2027
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MPlayerV", "MPlayerV\MPlayerV\MPlayerV.csproj", "{0D271085-C910-4E28-AE63-734E90B1C719}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MPlayerV", "MPlayerV\MPlayerV\MPlayerV.csproj", "{0D271085-C910-4E28-AE63-734E90B1C719}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MPlayerV.Gtk", "MPlayerV\MPlayerV.Gtk\MPlayerV.Gtk.csproj", "{95E8B113-BFAC-498A-B311-89DEC4732359}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MPlayerV.Gtk", "MPlayerV\MPlayerV.Gtk\MPlayerV.Gtk.csproj", "{95E8B113-BFAC-498A-B311-89DEC4732359}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MPlayerV.Mac", "MPlayerV\MPlayerV.Mac\MPlayerV.Mac.csproj", "{BDB6E64C-0243-4445-AB95-F9F0CE59405C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MPlayerV.Mac", "MPlayerV\MPlayerV.Mac\MPlayerV.Mac.csproj", "{BDB6E64C-0243-4445-AB95-F9F0CE59405C}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MPlayerV.Wpf", "MPlayerV\MPlayerV.Wpf\MPlayerV.Wpf.csproj", "{4BCBB3B8-2A8C-435E-9AED-773FC2F76EC7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Eto.Gl", "Eto.Gl\Eto.Gl.csproj", "{A8E57797-CFFF-468F-B706-10DE55B65355}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Eto.Gl.WPF", "Eto.Gl.WPF\Eto.Gl.WPF.csproj", "{34C9B0D5-96B2-4F61-8D45-00A4D1812C44}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +37,14 @@ Global
 		{4BCBB3B8-2A8C-435E-9AED-773FC2F76EC7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4BCBB3B8-2A8C-435E-9AED-773FC2F76EC7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4BCBB3B8-2A8C-435E-9AED-773FC2F76EC7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A8E57797-CFFF-468F-B706-10DE55B65355}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A8E57797-CFFF-468F-B706-10DE55B65355}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A8E57797-CFFF-468F-B706-10DE55B65355}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A8E57797-CFFF-468F-B706-10DE55B65355}.Release|Any CPU.Build.0 = Release|Any CPU
+		{34C9B0D5-96B2-4F61-8D45-00A4D1812C44}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{34C9B0D5-96B2-4F61-8D45-00A4D1812C44}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{34C9B0D5-96B2-4F61-8D45-00A4D1812C44}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{34C9B0D5-96B2-4F61-8D45-00A4D1812C44}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
