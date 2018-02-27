@@ -13,4 +13,8 @@
     <PackageReference Include="Eto.Serialization.Xaml" Version="2.4.1" />
   </ItemGroup>
   
+  <ItemGroup>
+    <ProjectReference Include="..\..\Eto.Gl\Eto.Gl.csproj" />
+  </ItemGroup>
+  
 </Project>

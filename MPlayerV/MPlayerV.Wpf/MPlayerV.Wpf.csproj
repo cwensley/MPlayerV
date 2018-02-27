@@ -59,6 +59,14 @@
     </PackageReference>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\..\Eto.Gl.WPF\Eto.Gl.WPF.csproj">
+      <Project>{34c9b0d5-96b2-4f61-8d45-00a4d1812c44}</Project>
+      <Name>Eto.Gl.WPF</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\Eto.Gl\Eto.Gl.csproj">
+      <Project>{a8e57797-cfff-468f-b706-10de55b65355}</Project>
+      <Name>Eto.Gl</Name>
+    </ProjectReference>
     <ProjectReference Include="..\MPlayerV\MPlayerV.csproj">
       <Project>{5D1D4149-BA26-4B1F-BF25-79851B750CE2}</Project>
       <Name>MPlayerV</Name>
